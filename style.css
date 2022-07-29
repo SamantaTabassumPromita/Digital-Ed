@@ -1,12 +1,13 @@
 .carousel-text{
-    font-size: 1.3vw;
+    font-size: 0.8rem;
 }
 .carousel-title{
     font-size: 5vw;
 }
-.course-title{
-    font-size: 4vw;
+.title{
+    font-size: 2.5rem;
 }
-.course-description{
-    font-size: 1.3vw;
+.description{
+    font-size: 1rem;
+    color: rgb(161, 154, 154);
 }
