@@ -12,12 +12,73 @@
     />
   </head>
   <body>
+    <header>
+      <!-- navbar -->
+      <div class="container mt-3 mb-3">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand me-5" href="#"
+              ><span class="fw-semibold text-info">Digital</span> Ed.</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-5 me-auto mb-2 mb-lg-0">
+                <li class="nav-item ms-5">
+                  <a
+                    class="nav-link active ms-5 me-3"
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item me-3">
+                  <a class="nav-link" href="#">Courses</a>
+                </li>
+                <li class="nav-item me-3">
+                  <a class="nav-link" href="#">Packages</a>
+                </li>
+                <li class="nav-item me-3">
+                  <a class="nav-link" href="#">Sucess</a>
+                </li>
+                <li class="nav-item me-3">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item me-3">
+                  <a class="nav-link" href="#">Subscribe</a>
+                </li>
+              </ul>
+              <div>
+                <button
+                  class="btn btn-outline-info me-3 navbar-expand-sm"
+                  type="submit"
+                >
+                  Register
+                </button>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
     <section class="container">
       <div class="row">
         <div
           class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center"
         >
-          <h1>Please register</h1>
+          <h1 class="mb-4 fw-semibold">
+            Registration <span class="text-info"> Form </span>
+          </h1>
           <form action="">
             <div class="form-floating mb-3">
               <input
@@ -60,7 +121,7 @@
 
             <div class="d-flex flex-column">
               <input
-                class="btn btn-primary my-2"
+                class="btn btn-info text-light fw-semibold my-2 px-5"
                 type="submit"
                 value="Register"
               />
